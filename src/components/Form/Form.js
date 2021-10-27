@@ -1,5 +1,4 @@
-import { useEffect, useRef } from 'react';
-import { useState } from 'react/cjs/react.development';
+import { useEffect, useRef, useState } from 'react';
 import './Form.css';
 
 function Form({ setPosts, editingMode, setEditingMode, targetPost }) {
