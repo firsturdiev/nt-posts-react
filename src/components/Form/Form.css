@@ -1,0 +1,41 @@
+.form {
+  flex-grow: 1;
+  margin-left: 50px;
+}
+
+.form__input {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #000000;  
+}
+
+.textarea {
+  width: 100%;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.form__btn {
+  width: 100%;
+  display: block;
+  font-weight: bold;
+  background-color: darkcyan;
+  color: aliceblue;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 10px 7px 10px;
+  cursor: pointer;
+}
+
+.form__btn:hover {
+  opacity: 0.8;
+}
+
+.form__btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

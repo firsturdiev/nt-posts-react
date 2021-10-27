@@ -1,0 +1,10 @@
+.posts {
+  max-width: 70%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.posts__item:not(:last-child) {
+  margin-bottom: 20px;
+}

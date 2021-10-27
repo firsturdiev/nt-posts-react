@@ -1,0 +1,39 @@
+.post {
+  position: relative;
+  background-color: #ddd;
+  padding: 5px;
+  border-radius: 10px;
+  transition: .1s;
+}
+
+.post:hover {
+  background-color: #bbb;
+}
+
+.post--active {
+  outline: 3px solid teal;
+}
+
+.post__title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.post__body {
+  margin: 0;
+}
+
+.post__btn {
+  display: contents;
+}
+
+.post__btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
